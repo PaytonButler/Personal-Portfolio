@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Payton Butler: Full-Stack Software Engineer" />
+
+  <title>Payton Butler: Software Engineer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       HEADER / NAV
+       ═══════════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+
+      <a href="#hero" class="logo"><span>Payton Butler</span></a>
+
+      <!-- Mobile toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="nav-menu" class="nav-menu" role="navigation" aria-label="Primary">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <!-- Update this href to point to your actual resume PDF -->
+        <a href="assets/Payton_Butler_Resume.pdf" target="_blank" rel="noopener" class="nav-link nav-cta">
+          Resume
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       HERO
+       ═══════════════════════════════════════════════════ -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-layout">
+        <div class="hero-content">
+
+          <p class="hero-eyebrow">Hi, I'm</p>
+
+          <h1 class="hero-name">Payton Butler</h1>
+
+          <!-- Typed subtitle — text is animated by main.js -->
+          <div class="hero-subtitle-wrapper">
+            <span id="typed-subtitle"></span>
+          </div>
+
+          <p class="hero-bio">
+            CS graduate from East Stroudsburg University building full-stack systems,
+            ML pipelines, and tools that actually solve problems.
+            Currently seeking <strong>entry-level SWE</strong> roles.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn--primary">See my work</a>
+            <a href="#contact" class="btn btn--secondary">Get in touch</a>
+          </div>
+        </div>
+        <!-- Update src to match your photo filename in assets/ -->
+        <div class="hero-photo-wrapper">
+          <img src="assets/me.jpeg" alt="Payton Butler" class="hero-photo" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       ABOUT
+       ═══════════════════════════════════════════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: bio text + skills -->
+        <div class="about-text reveal">
+          <span class="section-label">About</span>
+          <h2 class="section-title">A bit about me</h2>
+
+          <p>
+            I'm a full-stack engineer with a B.S. in Computer Science and a minor in Mathematics
+            from East Stroudsburg University, class of May 2026. I build across the stack:
+            <strong>C# / ASP.NET Core</strong>, <strong>Python / FastAPI</strong>,
+            <strong>React</strong>, and <strong>PostgreSQL</strong> and I'm comfortable
+            taking a project from a blank repo to a live deployment. Over the past year, I have been honing my skills in
+            AI and Machine Learning, building a full-stack LLM observatory that allows users to run experiments on LLMs
+            and visualize the results. Check it out in the Projects section below!
+          </p>
+          <p>
+            Outside of code, I served as a Resident Advisor for the STEM Living-Learning
+            Community and Treasurer of the CS Organization. I really enjoy collaborating with others and making ideas
+            come to life. I am an extremely hard worker: I graduated Magna Cum Laude while working throughout college.
+            I never want to stop growing, and I am always looking for ways to improve my skills and learn new
+            technologies.
+          <p>
+            I care about writing code that's readable, maintainable, and ships to real users.
+          </p>
+
+          <div class="skills-block">
+            <p class="skills-title">Languages &amp; tools</p>
+            <ul class="skills-list" aria-label="Skills">
+              <li class="skill-chip">Python</li>
+              <li class="skill-chip">JavaScript</li>
+              <li class="skill-chip">SQL</li>
+              <li class="skill-chip">C++</li>
+              <li class="skill-chip">ASP.NET Core</li>
+              <li class="skill-chip">FastAPI</li>
+              <li class="skill-chip">React</li>
+              <li class="skill-chip">PostgreSQL</li>
+              <li class="skill-chip">Docker</li>
+              <li class="skill-chip">Git</li>
+              <li class="skill-chip">OpenAI</li>
+              <li class="skill-chip">HTML</li>
+              <li class="skill-chip">CSS</li>
+              <li class="skill-chip">C#</li>
+              <li class="skill-chip">Java</li>
+              <li class="skill-chip">Azure</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: highlight cards -->
+        <div class="about-highlights reveal-stagger">
+          <div class="highlight-card">
+            <p class="highlight-card-label">Education</p>
+            <p class="highlight-card-value">B.S. Computer Science</p>
+            <p class="highlight-card-sub">East Stroudsburg University · May 2026<br />Minor in Mathematics</p>
+          </div>
+          <div class="highlight-card">
+            <p class="highlight-card-label">Experience</p>
+            <p class="highlight-card-value">Full-Stack Development</p>
+            <p class="highlight-card-sub">Web apps, REST APIs, ML pipelines,<br />deployed to production</p>
+          </div>
+          <div class="highlight-card">
+            <p class="highlight-card-label">Currently</p>
+            <p class="highlight-card-value">Open to Work</p>
+            <p class="highlight-card-sub">Entry-level SWE · Northeast U.S.<br />On-site, hybrid, or remote</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       PROJECTS
+       ═══════════════════════════════════════════════════ -->
+  <section id="projects" class="section">
+    <div class="container">
+
+      <div class="projects-header reveal">
+        <div class="projects-header-text">
+          <span class="section-label">Work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">
+            Side projects, coursework, and things I made because
+            the tool I wanted didn't exist yet.
+          </p>
+        </div>
+      </div>
+
+      <!--
+        Project cards are rendered here automatically by main.js.
+        To add a project, edit js/projects.js — no changes needed here.
+      -->
+      <div id="projects-grid" aria-label="Project list">
+        <!-- Cards injected by JS -->
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       CONTACT
+       ═══════════════════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-inner reveal">
+
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="section-subtitle">
+          I'm actively looking for my first full-time SWE role. If you're hiring,
+          collaborating, or just want to connect, my inbox is open!
+        </p>
+
+        <!-- Update these with your actual links / email -->
+        <div class="contact-links">
+
+          <a href="mailto:paytonjeremybutler@gmail.com" class="contact-link-row">
+            <svg class="contact-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">PaytonJeremyButler@gmail.com</span>
+          </a>
+
+          <a href="https://linkedin.com/in/paytonbutler" target="_blank" rel="noopener" class="contact-link-row">
+            <svg class="contact-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/PaytonButler</span>
+          </a>
+
+          <a href="https://github.com/PaytonButler" target="_blank" rel="noopener" class="contact-link-row">
+            <svg class="contact-link-icon" viewBox="0 0 24 24" aria-hidden="true"
+              style="fill:currentColor;stroke:none;">
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+            </svg>
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/PaytonButler</span>
+          </a>
+
+        </div>
+
+        <a href="assets/Payton_Butler_Resume.pdf" target="_blank" rel="noopener" class="btn btn--primary">
+          Download Resume
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-note">
+        Built by <span>Payton Butler</span> - plain HTML, CSS &amp; JS. No frameworks.
+      </p>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="#hero" class="footer-link">Top</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+
+  <!-- Scripts — projects.js must load before main.js -->
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
