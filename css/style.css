@@ -353,10 +353,8 @@ h4 {
 .hero-eyebrow::before {
   content: '>';
   display: inline-block;
-  width: 32px;
-  height: 2px;
-  background-color: var(--color-accent);
-  border-radius: 2px;
+  color: var(--color-accent);
+  margin-right: 4px;
 }
 
 .hero-name {

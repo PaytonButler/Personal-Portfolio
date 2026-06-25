@@ -52,4 +52,13 @@ var PROJECTS = [
     live: "https://paytonbutler.github.io/Flappy-Bird",
     highlight: false,
   },
+  {
+    title: "Dig Deeper Game",
+    description:
+      "A deep questions game inspired by my girlfriend, used to get to know someone. Utilizes a local text file for question storage and a simple JS front-end for gameplay.",
+    tags: ["JavaScript", "Canvas API", "HTML5"],
+    github: "https://github.com/PaytonButler/deep-question-game",
+    live: "https://paytonbutler.github.io/deep-question-game/",
+    highlight: false,
+  },
 ];
