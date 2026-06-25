@@ -48,15 +48,6 @@ No HTML to touch. No IDs to manage.
 
 ---
 
-## Deploying to GitHub Pages (Also Free)
-
-1. Push to GitHub
-2. Go to your repo → Settings → Pages
-3. Set Source to **"Deploy from a branch"**, branch: `main`, folder: `/ (root)`
-4. Save — live at `https://yourusername.github.io/repo-name`
-
----
-
 ## Editing the Design
 
 All design tokens (colors, fonts, spacing) live at the very top of `css/style.css`
