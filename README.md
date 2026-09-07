@@ -43,7 +43,7 @@ Open `js/projects.js`. You'll see an array called `PROJECTS`. Each object is one
 },
 ```
 
-**That's it.** Save the file — the page re-renders the grid automatically from the array.
+**That's it.** Save the file and the page re-renders the grid automatically from the array.
 No HTML to touch. No IDs to manage.
 
 ---
@@ -54,6 +54,6 @@ All design tokens (colors, fonts, spacing) live at the very top of `css/style.cs
 under `:root { ... }`. Changing a color there updates it everywhere on the site.
 
 Key tokens:
-- `--color-accent` — the coral orange highlight color
-- `--color-bg` — page background
-- `--font-display` / `--font-mono` — typefaces
+- `--color-accent` - the coral orange highlight color
+- `--color-bg` - page background
+- `--font-display` / `--font-mono` - typefaces

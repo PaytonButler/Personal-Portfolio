@@ -8,28 +8,24 @@
 
   <title>Payton Butler: Software Engineer</title>
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
     rel="stylesheet" />
 
-  <!-- Styles -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 
-  <!-- ═══════════════════════════════════════════════════
-       HEADER / NAV
-       ═══════════════════════════════════════════════════ -->
+
   <header class="site-header" role="banner">
     <div class="container header-inner">
 
       <a href="#hero" class="logo"><span>Payton Butler</span></a>
 
-      <!-- Mobile toggle -->
+
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"
         aria-controls="nav-menu">
         <span></span>
@@ -41,7 +37,6 @@
         <a href="#about" class="nav-link">About</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#contact" class="nav-link">Contact</a>
-        <!-- Update this href to point to your actual resume PDF -->
         <a href="assets/Payton_Butler_Resume.pdf" target="_blank" rel="noopener" class="nav-link nav-cta">
           Resume
         </a>
@@ -51,9 +46,6 @@
   </header>
 
 
-  <!-- ═══════════════════════════════════════════════════
-       HERO
-       ═══════════════════════════════════════════════════ -->
   <section id="hero" class="hero">
     <div class="container">
       <div class="hero-layout">
@@ -63,7 +55,6 @@
 
           <h1 class="hero-name">Payton Butler</h1>
 
-          <!-- Typed subtitle — text is animated by main.js -->
           <div class="hero-subtitle-wrapper">
             <span id="typed-subtitle"></span>
           </div>
@@ -79,7 +70,6 @@
             <a href="#contact" class="btn btn--secondary">Get in touch</a>
           </div>
         </div>
-        <!-- Update src to match your photo filename in assets/ -->
         <div class="hero-photo-wrapper">
           <img src="assets/profHeadshotZoom.png" alt="Payton Butler" class="hero-photo" />
         </div>
@@ -89,14 +79,11 @@
   </section>
 
 
-  <!-- ═══════════════════════════════════════════════════
-       ABOUT
-       ═══════════════════════════════════════════════════ -->
+
   <section id="about" class="section">
     <div class="container">
       <div class="about-grid">
 
-        <!-- Left: bio text + skills -->
         <div class="about-text reveal">
           <span class="section-label">About</span>
           <h2 class="section-title">A bit about me</h2>
@@ -143,7 +130,6 @@
           </div>
         </div>
 
-        <!-- Right: highlight cards -->
         <div class="about-highlights reveal-stagger">
           <div class="highlight-card">
             <p class="highlight-card-label">Education</p>
@@ -166,10 +152,6 @@
     </div>
   </section>
 
-
-  <!-- ═══════════════════════════════════════════════════
-       PROJECTS
-       ═══════════════════════════════════════════════════ -->
   <section id="projects" class="section">
     <div class="container">
 
@@ -184,21 +166,15 @@
         </div>
       </div>
 
-      <!--
-        Project cards are rendered here automatically by main.js.
-        To add a project, edit js/projects.js — no changes needed here.
-      -->
       <div id="projects-grid" aria-label="Project list">
-        <!-- Cards injected by JS -->
+ 
       </div>
 
     </div>
   </section>
 
 
-  <!-- ═══════════════════════════════════════════════════
-       CONTACT
-       ═══════════════════════════════════════════════════ -->
+
   <section id="contact" class="section">
     <div class="container">
       <div class="contact-inner reveal">
@@ -210,7 +186,6 @@
           collaborating, or just want to connect, my inbox is open!
         </p>
 
-        <!-- Update these with your actual links / email -->
         <div class="contact-links">
 
           <a href="mailto:paytonjeremybutler@gmail.com" class="contact-link-row">
@@ -252,10 +227,7 @@
     </div>
   </section>
 
-
-  <!-- ═══════════════════════════════════════════════════
-       FOOTER
-       ═══════════════════════════════════════════════════ -->
+  
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <p class="footer-note">
@@ -269,8 +241,6 @@
     </div>
   </footer>
 
-
-  <!-- Scripts — projects.js must load before main.js -->
   <script src="js/projects.js"></script>
   <script src="js/main.js"></script>
 

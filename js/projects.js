@@ -1,18 +1,16 @@
 /**
- * projects.js — YOUR CONTENT FILE
+ * projects.js
  * ================================
- * This is the only file you need to edit to manage your projects.
- *
  * To add a project: copy one of the objects below and paste it at the top
  *   of the array (newest first is recommended).
  *
  * Fields:
- *   title       (string)   — Project name
- *   description (string)   — 1–2 sentence summary shown on the card
- *   tags        (array)    — Tech stack labels, keep to 4–6 max
- *   github      (string)   — GitHub URL, or null to hide the button
- *   live        (string)   — Live site URL, or null to hide the button
- *   highlight   (boolean)  — Set to true to pin the card with an accent border (use sparingly)
+ *   title       (string)   - Project name
+ *   description (string)   - 1–2 sentence summary shown on the card
+ *   tags        (array)    - Tech stack labels, keep to 4–6 max
+ *   github      (string)   - GitHub URL, or null to hide the button
+ *   live        (string)   - Live site URL, or null to hide the button
+ *   highlight   (boolean)  - Set to true to pin the card with an accent border (use sparingly)
  */
 
 var PROJECTS = [
