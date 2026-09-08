@@ -19,7 +19,7 @@ var PROJECTS = [
     description:
       "A full-stack platform for comparing and monitoring LLM outputs across providers. Features real-time logging, prompt history, and a React dashboard.",
     tags: ["FastAPI", "React", "PostgreSQL", "Docker", "Vercel", "OpenAI"],
-    github: "https://github.com/PaytonButler",
+    github: "https://github.com/PaytonButler/llm-observatory",
     live: "https://llm-observatory-gamma.vercel.app/",
     highlight: false,
   },
@@ -28,9 +28,16 @@ var PROJECTS = [
     description:
       "A full-featured blog platform with threaded comments, likes, image uploads, and role-based admin. Built over a 16-week internship and deployed on Render.",
     tags: ["ASP.NET Core", "C#", "EF Core", "Azure"],
-    github: "https://github.com/PaytonButler",
+    github: "https://github.com/PaytonButler/CompLog-Render",
     live: "https://complog.org/",
     highlight: false,
+  },
+  {
+    title: "Local RAG Pipeline",
+    description:
+      "A Retrieval Augmented Generation pipeline I created that allows users to interact with PDFs and SDFs. Fully private using a local LLM through Ollama.",
+    tags: ["FastAPI", "Ollama", "FastAPI", "QDrant"],
+    github: "https://github.com/PaytonButler/local-rag-pipeline",
   },
   {
     title: "BabyWireShark",
@@ -58,5 +65,12 @@ var PROJECTS = [
     github: "https://github.com/PaytonButler/deep-question-game",
     live: "https://paytonbutler.github.io/deep-question-game/",
     highlight: false,
+  },
+  {
+    title: "Catch the Apple Game",
+    description:
+      "A game I created in Pygame. The objective is to catch as many apples as you can and avoid catching bombs!",
+    tags: ["Python", "Pygame"],
+    github: "https://github.com/PaytonButler/AppleGame",
   },
 ];
