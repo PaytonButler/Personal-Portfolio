@@ -49,6 +49,12 @@ var PROJECTS = [
     highlight: false,
   },
   {
+    title: "Spotify Widget",
+    description: "Desktop widget to display current spotify song with pause, play, and skip features",
+    tags: ["JavaScipt", "CSS", "html"],
+    github: "https://github.com/PaytonButler/Spotify-Widget",
+  },
+  {
     title: "Flappy Bird",
     description:
       "A browser-based Flappy Bird clone with delta-time physics, smooth 60fps animation, and localStorage high score persistence.",
