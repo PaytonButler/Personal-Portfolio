@@ -36,22 +36,31 @@ var PROJECTS = [
     title: "Local RAG Pipeline",
     description:
       "A Retrieval Augmented Generation pipeline I created that allows users to interact with PDFs and SDFs. Fully private using a local LLM through Ollama.",
-    tags: ["FastAPI", "Ollama", "FastAPI", "QDrant"],
+    tags: ["FastAPI", "Ollama", "QDrant"],
     github: "https://github.com/PaytonButler/local-rag-pipeline",
   },
   {
-    title: "BabyWireShark",
+    title: "DevOps Incident Tracker",
     description:
-      "A lightweight network packet analyzer built in C that captures and decodes live traffic, inspired by Wireshark's core capture pipeline.",
-    tags: ["C", "Networking", "Sockets", "PCAP"],
-    github: "https://github.com/PaytonButler",
+      "A FastAPI backend that ingests service events, automatically opens incidents for errors and slow responses, and tracks them through resolution. Containerized with Docker and covered by a Pytest suite.",
+    tags: ["Python", "FastAPI", "SQLAlchemy", "SQLite", "Docker", "Pytest"],
+    github: "https://github.com/PaytonButler/devops-incident-tracker",
     live: null,
+    highlight: false,
+  },
+  {
+    title: "PDF Text Editor",
+    description:
+      "A browser-based editor for adding text anywhere on a PDF. Place, drag, and resize text boxes, pick fonts, size, and color, then export the edited file. Everything runs client-side, so files never leave your device.",
+    tags: ["React", "TypeScript", "Vite", "pdf-lib", "PDF.js"],
+    github: "https://github.com/PaytonButler/pdf-text-editor",
+    live: "https://pdf-text-editor-7dy2q7lfe-payton-s-projects-llm.vercel.app/",
     highlight: false,
   },
   {
     title: "Spotify Widget",
     description: "Desktop widget to display current spotify song with pause, play, and skip features",
-    tags: ["JavaScipt", "CSS", "html"],
+    tags: ["JavaScript", "CSS", "html"],
     github: "https://github.com/PaytonButler/Spotify-Widget",
   },
   {
